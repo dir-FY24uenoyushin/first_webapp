@@ -3,7 +3,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>JSPのテスト</title>
+        <title>九九の表示</title>
     </head>
     <body>
         <ul>

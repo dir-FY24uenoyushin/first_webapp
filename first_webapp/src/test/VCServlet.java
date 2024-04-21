@@ -30,8 +30,7 @@ public class VCServlet extends HttpServlet {
             throws ServletException, IOException {
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view.jsp");
         rd.forward(request, response);
-	}
-
+    }
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
