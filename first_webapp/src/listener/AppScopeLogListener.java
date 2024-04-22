@@ -24,7 +24,6 @@ public class AppScopeLogListener implements ServletContextAttributeListener {
     public void attributeAdded(ServletContextAttributeEvent scae)  { 
         System.out.println("アプリケーションスコープに登録しました: " + scae.getName() + "=" + scae.getValue());
     }
-    
 
 	/**
      * @see ServletContextAttributeListener#attributeRemoved(ServletContextAttributeEvent)
